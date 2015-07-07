@@ -1,5 +1,5 @@
 {
-    "name": "ranger",
+    "name": "ranger-slider",
     "version": "0.1.0",
     "main": [
         "dist/ranger.js",
