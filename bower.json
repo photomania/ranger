@@ -1,0 +1,26 @@
+{
+    "name": "ranger",
+    "version": "0.1.0",
+    "main": [
+        "dist/ranger.js",
+        "dist/ranger.css"
+    ],
+    "dependencies": {
+        "jquery": "~2.0"
+    },
+    "ignore": [
+        "node_modules",
+        "bower_components",
+        "example",
+        ".git",
+        ".gitignore",
+        ".jshintrc",
+        "Gruntfile.js",
+        "package.json"
+    ],
+    "keywords": [
+        "amd",
+        "module",
+        "slider"
+    ]
+}
