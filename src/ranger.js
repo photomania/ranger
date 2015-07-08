@@ -283,6 +283,8 @@
          * @returns {Ranger} This Ranger object.
          */
         render: function () {
+            this._rendered = true;
+
             var html = '<div class="ranger-surface">' +
                             '<div class="ranger-content">' +
                                 '<div class="ranger-value">' + this._value + '</div>' +
@@ -296,8 +298,7 @@
             this.$el.html(html);
             this._bindUIElements();
             this._setDimensions();
-
-            this._rendered = true;
+            this._updateUI();
 
             return this;
         },
