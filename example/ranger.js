@@ -218,7 +218,9 @@
         },
 
         _updateTrack: function () {
-            var percentage = 100 * (this.getValue() / this._settings.max);
+            var trackRange = this._settings.max - this._settings.min;
+            var trackValue = this.getValue() - this._settings.min;  // min value can be other than 0, which means we need to get the track value and not the real one.
+            var percentage = 100 * (trackValue / trackRange);
             this._ui.trackFill.width(percentage + '%');
         },
 

@@ -14,6 +14,8 @@ require([
 ], function ($, Ranger) {
     var ranger = new Ranger({
         title: 'Power',
+        min: 10,
+        max: 90,
         value: 25,
         width: 300,
         height: 150,
