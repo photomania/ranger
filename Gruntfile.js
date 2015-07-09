@@ -79,7 +79,7 @@ module.exports = function (grunt) {
 				options: {
 					prefix: '"version":\\s"*'
 				},
-				src: ['bower.json']
+				src: ['bower.json', 'package.json']
 			}
 		},
 		watch: {

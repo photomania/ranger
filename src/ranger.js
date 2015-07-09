@@ -1,7 +1,7 @@
 /**
  * Ranger: Slider UI Control for Mobile
  * @namespace Ranger
- * @version 0.1.0
+ * @version 0.1.2
  * @author Bar Ziony
  * @link https://github.com/photomania/ranger
  */
