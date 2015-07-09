@@ -46,6 +46,7 @@ module.exports = function (grunt) {
 			main: {
 				files: [
 					{src: ['src/ranger.js'], dest: 'dist/ranger.js'},
+					{src: ['src/ranger.css'], dest: 'dist/ranger.css'},
 					{src: ['src/ranger.js'], dest: 'example/ranger.js'},
 					{src: ['src/ranger.css'], dest: 'example/ranger.css'},
 					{src: ['bower_components/jquery/jquery.min.js'], dest: 'example/jquery.min.js'},
